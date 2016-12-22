@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/bodovna_lista_side_menu"
+            android:checked="true"
+            android:title="Bodovna Lista" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/rejting_lista_side_menu"
+            android:title="Rejting Lista" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/heart"
+            android:title="Omiljeni parovi" />
+    </group>
+
+    <item android:title="Podesavanja">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_choose_first_screen"
+                    android:checkable="false"
+                    android:icon="@drawable/ic_arrange_bring_forward_black_24dp"
+                    android:title="Izaberite prvi ekran" />
+                <item
+                    android:id="@+id/nav_sorting"
+                    android:checkable="false"
+                    android:icon="@drawable/ic_sort_by_alpha_black_24dp"
+                    android:title="Sortiranje" />
+                <item
+                    android:id="@+id/naV_filter"
+                    android:checkable="false"
+                    android:icon="@drawable/ic_filter_black_24dp"
+                    android:title="Filtriranje" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

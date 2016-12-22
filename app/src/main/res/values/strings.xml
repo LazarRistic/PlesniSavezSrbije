@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlesniSavezSrbije</string>
+
+    <!-- Navigation Drawer Icon -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>

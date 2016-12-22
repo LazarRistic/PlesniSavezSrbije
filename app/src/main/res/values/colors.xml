@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#5E6FC7</color>
+    <color name="colorPrimaryLighter">#8895DC</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="coolorsSENLapisLazuli">#247BA0</color>
+    <color name="coolorsSTOGreenSheen">#70C1B3</color>
+    <color name="coolorsOMLSeaFoamGreen">#B2DBBF</color>
+    <color name="coolorsMLOVeryPaleYellow">#F3FFBD</color>
+    <color name="coolorsPIOAwesome">#FF1654</color>
+
+    <array name="colors">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryLight</item>
+        <item>@color/colorPrimaryLighter</item>
+    </array>
+</resources>
